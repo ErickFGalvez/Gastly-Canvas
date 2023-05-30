@@ -5,7 +5,7 @@ const canvas = document.querySelector('#canvas');
       ctx.fillStyle = 'white';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-
+//desenha a fumaça do gastly com formas redondas
       {
    ctx.beginPath();
 
@@ -23,13 +23,15 @@ ctx.arc(480, 470, 100, 0, 4*Math.PI);
 ctx.fillStyle = '#483D8B';
 ctx.fill();
  }
- 
+ //desenha o corpo do gastly 
   {
         ctx.fillStyle = '#2e2e2e';
         ctx.beginPath();
         ctx.arc(400, 400, 120, 0, 4 * Math.PI);
 ctx.fill();
       }
+	  
+ //desenha a boca do gastly
  {
 ctx.beginPath();
 ctx.fillStyle = 'red';
@@ -37,32 +39,34 @@ ctx.arc(400, 425, 35, 0, Math.PI, false);
 
         ctx.fill();
  }
+ //desenha os olhos do gastly
  {
 ctx.beginPath();
 ctx.fillStyle = 'white';
-ctx.arc(450, 350, 35, 11*Math.PI/6, 5*Math.PI/6, false);
+ctx.arc(450, 375, 45, 11*Math.PI/6, 5*Math.PI/6, false);
 ctx.fill();
  }
  {
 ctx.beginPath();
 ctx.fillStyle = 'white';
-ctx.arc(350, 350, 35, Math.PI/6, 7*Math.PI/6, false);
+ctx.arc(350, 375, 45, Math.PI/6, 7*Math.PI/6, false);
 ctx.fill()
 }
+//desenha as pupilas do gastly
 {
 ctx.beginPath();
 ctx.fillStyle = 'black';
-ctx.arc(450, 350, 10, 11*Math.PI/6, 5*Math.PI/6, false);
+ctx.arc(450, 375, 10, 11*Math.PI/6, 5*Math.PI/6, false);
 ctx.fill();
  }
  {
 ctx.beginPath();
 ctx.fillStyle = 'black';
-ctx.arc(350, 350, 10, Math.PI/6, 7*Math.PI/6, false);
+ctx.arc(350, 375, 10, Math.PI/6, 7*Math.PI/6, false);
 ctx.fill()
 }
 {
-
+//desenha as presas do gastly
     ctx.beginPath();
 ctx.fillStyle ='white';
     ctx.moveTo(380,445);
