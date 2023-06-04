@@ -2,7 +2,8 @@ Projeto Canvas - Desenho do Pokémon Gastly
 Este projeto tem como objetivo desenhar o Pokémon Gastly utilizando as funcionalidades do canvas do JavaScript.
 
 Funcionalidades
-Desenho da Fumaça do Gastly
+
+Desenho da Fumaça do Gastly:
 A função a seguir desenha a fumaça do Gastly utilizando círculos. A cor escolhida é '#483D8B', um roxo escuro semelhante à cor do Pokémon.
 
 
@@ -24,7 +25,7 @@ A função a seguir desenha a fumaça do Gastly utilizando círculos. A cor esco
 }
 
 
-Desenho do Corpo do Gastly
+Desenho do Corpo do Gastly:
 A função a seguir desenha o corpo do Gastly utilizando um círculo maior que os utilizados na fumaça. A cor escolhida é '#2e2e2e', um cinza bem escuro.
 
 
@@ -34,7 +35,7 @@ A função a seguir desenha o corpo do Gastly utilizando um círculo maior que o
   ctx.arc(400, 400, 120, 0, 4 * Math.PI);
   ctx.fill();
 }
-Desenho da Boca do Gastly
+Desenho da Boca do Gastly:
 A função a seguir desenha a boca do Gastly utilizando um semicírculo vermelho.
 
 {
@@ -45,7 +46,7 @@ A função a seguir desenha a boca do Gastly utilizando um semicírculo vermelho
 }
 
 
-Desenho dos Olhos do Gastly
+Desenho dos Olhos do Gastly:
 As duas funções a seguir desenham os olhos do Gastly utilizando dois semicírculos posicionados de forma a parecer que o Gastly está bravo. A cor utilizada é 'white'.
 
 
@@ -64,7 +65,7 @@ As duas funções a seguir desenham os olhos do Gastly utilizando dois semicírc
 }
 
 
-Desenho das Pupilas do Gastly
+Desenho das Pupilas do Gastly:
 As duas funções a seguir desenham as pupilas do Gastly utilizando dois semicírculos menores, posicionados na mesma posição dos olhos anteriores. A cor utilizada é 'black'.
 
 
@@ -83,7 +84,7 @@ As duas funções a seguir desenham as pupilas do Gastly utilizando dois semicí
 }
 
 
-Desenho das Presas do Gastly
+Desenho das Presas do Gastly:
 As duas funções a seguir desenham as presas do Gastly utilizando linhas retas, posicionadas de forma a parecerem dois triângulos. A cor utilizada é 'white'.
 
 
